@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo2/bottom_appbar_demo.dart';
 import 'package:flutter_demo2/bottom_navigation_wiget.dart';
+import 'package:flutter_demo2/first_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: BottomAppbarDemo(),
+      home: FirstPage(),
     );
   }
 }

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_demo2/bottom_appbar_demo.dart';
 import 'package:flutter_demo2/bottom_navigation_wiget.dart';
 import 'package:flutter_demo2/expansionTileDemo.dart';
+import 'package:flutter_demo2/expansion_panel_list.dart';
 import 'package:flutter_demo2/first_page.dart';
 import 'package:flutter_demo2/frosted_glass_demo.dart';
 import 'package:flutter_demo2/keep_alive_demo.dart';
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -28,7 +30,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ExpansionTileDemo(),
+      home: ExpansionPanelListDemo(),
     );
   }
 }
